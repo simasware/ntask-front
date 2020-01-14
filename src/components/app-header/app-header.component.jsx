@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 const AppHeader = () => (
   <Navbar bg="dark" variant="dark">
@@ -13,6 +13,10 @@ const AppHeader = () => (
       />{" "}
       NTask App
     </Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Link href="/">Tarefas</Nav.Link>
+      <Nav.Link href="http://www.simasware.com.br" target="_blank">Sobre</Nav.Link>
+    </Nav>
   </Navbar>
 );
 

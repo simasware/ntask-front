@@ -11,7 +11,8 @@ const AddTask = ({handleChange}) => (
           placeholder="Informe a tarefa"
           required
           onChange={handleChange}
-          name="title"          
+          name="title"
+          autoComplete="off"          
         />
       </Form.Group>
     </Form>
